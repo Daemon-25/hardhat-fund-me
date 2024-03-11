@@ -10,7 +10,13 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@nomicfoundation/hardhat-ignition-ethers": "^0.14.0",
     "@nomicfoundation/hardhat-toolbox-viem": "^2.0.0",
     "hardhat": "^2.21.0"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.8.0",
+    "dotenv": "^16.4.5",
+    "solhint": "^4.1.1"
   }
 }
