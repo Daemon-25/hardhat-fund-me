@@ -1,7 +1,7 @@
 import { HardhatUserConfig } from "hardhat/config";
-import "@nomicfoundation/hardhat-toolbox-viem";
+import "@nomicfoundation/hardhat-toolbox";
 import "dotenv/config"
-import "@nomicfoundation/hardhat-ignition-ethers";
+import "hardhat-deploy"
 
 const config: HardhatUserConfig = {
   defaultNetwork: "hardhat",

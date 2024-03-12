@@ -1,5 +1,5 @@
 {
-  "name": "hardhat-fund-me",
+  "name": "hh-fund-me",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -12,7 +12,8 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-ignition-ethers": "^0.14.0",
     "@nomicfoundation/hardhat-toolbox-viem": "^2.0.0",
-    "hardhat": "^2.21.0"
+    "hardhat": "^2.21.0",
+    "hardhat-deploy": "^0.12.1"
   },
   "dependencies": {
     "@chainlink/contracts": "^0.8.0",

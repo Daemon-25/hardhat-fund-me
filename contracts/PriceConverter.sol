@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.7;
+pragma solidity ^0.8.24;
 
 import "@chainlink/contracts/src/v0.8/interfaces/AggregatorV3Interface.sol";
 
@@ -15,8 +15,6 @@ library PriceConverter {
   }
 
   // 1000000000
-  // call it get fiatConversionRate, since it assumes something about decimals
-  // It wouldn't work for every aggregator
   function getConversionRate(uint256 ethAmount, AggregatorV3Interface priceFeed)
     internal
     view

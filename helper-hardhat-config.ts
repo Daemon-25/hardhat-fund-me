@@ -7,7 +7,7 @@ const networkConfig: Record<number, any> = {
 
 const developmentChains = ["hardhat", "localhost"];
 
-const DECIMALS = 8, INITIAL_ANSWER = 2000;
+const DECIMALS: number = 8, INITIAL_ANSWER: number = 2000;
 
 module.exports = {
     networkConfig,
